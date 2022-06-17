@@ -1,0 +1,225 @@
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Runner: processes
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Chooser: simple
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration suite_name = "pbt"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration cache_filename = "/Users/jujuspence/cmsc330spring22/project4b/_build/default/test/pbt/oUnit-$(suite_name).cache"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration run_gc_full_major = "true"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration seed = "-1"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration display = "true"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration results_style_1_X = "false"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration testdata_dir = "none"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration health_check_interval = "1."
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration verbose = "false"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration chooser = "simple"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration output_html_dir = "none"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration processes_kill_period = "5."
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration runner = "processes"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration shards = "2"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration processes_grace_period = "5."
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration qcheck_verbose = "true"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration log_encoding = "utf-8"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration output_junit_file = "none"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration ci = "false"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration qcheck_long = "false"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Configuration output_file = "/Users/jujuspence/cmsc330spring22/project4b/_build/default/test/pbt/oUnit-$(suite_name)-$(shard_id).log"
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Using 2 workers maximum.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Starting worker number wireless-10-104-218-155.umd.edu#01.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Worker wireless-10-104-218-155.umd.edu#01 started.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Starting worker number wireless-10-104-218-155.umd.edu#02.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Worker wireless-10-104-218-155.umd.edu#02 started.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: Start test pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: law test_simple_def: 0 relevant cases (1 total)
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-36
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Test pbt:0:test_simple_def exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-36
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E:  in test pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: End test pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: Start test pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:1:test_simple_let, pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: Start test pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: law test_simple_let: 0 relevant cases (1 total)
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-38
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: law test_sum_small_ints: 0 relevant cases (1 total)
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Test pbt:1:test_simple_let exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-38
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E:  in test pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-29
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: End test pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Test pbt:2:test_sum_small_ints exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-29
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E:  in test pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:2:test_sum_small_ints, pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#01 I: End test pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 2 tests running : pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 2 tests running: pbt:3:test_operator_precedence, pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: Start test pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: law test_operator_precedence: 0 relevant cases (1 total)
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-35
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Test pbt:3:test_operator_precedence exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-35
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E:  in test pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#02 I: End test pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Still 1 tests running : pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 1 tests running: pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: 0 tests running: .
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Worker wireless-10-104-218-155.umd.edu#02 has ended.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Worker wireless-10-104-218-155.umd.edu#01 died unexpectedly.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Used 2 worker during test execution.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Run 2 tests with shard wireless-10-104-218-155.umd.edu#01.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Run 2 tests with shard wireless-10-104-218-155.umd.edu#02.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Check health of shard wireless-10-104-218-155.umd.edu#01, 8 times.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Check health of shard wireless-10-104-218-155.umd.edu#02, 1 times.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: ==============
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Summary:
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Test pbt:3:test_operator_precedence exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: test `test_operator_precedence` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: on `(0, 0, 0) (after 8 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from Dune__exe__Pbt.test_operator_precedence.(fun) in file "test/pbt/pbt.ml", line 55, characters 14-35
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E:  in test pbt:3:test_operator_precedence.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Test pbt:2:test_sum_small_ints exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: test `test_sum_small_ints` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: on `(0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from Dune__exe__Pbt.test_sum_small_ints.(fun) in file "test/pbt/pbt.ml", line 40, characters 14-29
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E:  in test pbt:2:test_sum_small_ints.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Test pbt:1:test_simple_let exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: test `test_simple_let` raised exception `Failure("unimplemented")`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: on `(0, false, 0, 0) (after 3 shrink steps)`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from Dune__exe__Pbt.test_simple_let.(fun) in file "test/pbt/pbt.ml", line 27, characters 14-38
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E:  in test pbt:1:test_simple_let.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Test pbt:0:test_simple_def exited with an error.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: test `test_simple_def` raised exception `Failure("unimplemented")` on `0`
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from P4b__Lexer.tokenize in file "src/lexer.ml" (inlined), line 5, characters 21-45
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from Dune__exe__Pbt.test_simple_def.(fun) in file "test/pbt/pbt.ml", line 14, characters 14-36
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.run_law in file "src/core/QCheck2.ml", line 1410, characters 9-14
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from QCheck2.Test.check_state_input in file "src/core/QCheck2.ml", line 1533, characters 20-48
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E:  in test pbt:0:test_simple_def.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Raised at QCheck2.Test.check_result in file "src/core/QCheck2.ml", line 1762, characters 6-78
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 E: 
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Ran: 4 tests in: 0.11 seconds.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Cases: 4.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Tried: 4.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Errors: 4.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Failures: 0.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Skip: 0.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Todo: 0.
+2022-04-26T20:23:48+00:00 wireless-10-104-218-155.umd.edu#00 I: Timeout: 0.
